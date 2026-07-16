@@ -9,6 +9,7 @@ import com.project.Hospital_Patient_Management.Entity.Patient;
 import com.project.Hospital_Patient_Management.Services.PatientService;
 @RestController
 @RequestMapping("/patient")
+@CrossOrigin(origins = "http://localhost:5173")
 public class PatientController {
 
    @Autowired
